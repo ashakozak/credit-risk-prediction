@@ -7,7 +7,7 @@
 
 * Briefly explain the project's purpose and motivation.
 
-##Data Description:
+## Data Description:
 
 * Dataset source: Link to the Laotse credit risk dataset on Kaggle.
 * Data summary: Number of records, features, and target variable.
