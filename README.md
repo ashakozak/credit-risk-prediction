@@ -21,14 +21,14 @@
      - `/person_age/`: Age of the borrower </br>
      Younger borrowers may have less established credit history and financial stability, potentially increasing risk ↑. Older borrowers may have more stable incomes and assets, potentially decreasing risk ↓.
      - `/person_income/`: Annual Income of the borrower </br>
-    Higher income indicates greater financial capacity to repay loans, potentially decreasing risk ↓. Lower income may raise concerns about affordability, potentially increasing risk ↑.
+     Higher income indicates greater financial capacity to repay loans, potentially decreasing risk ↓. Lower income may raise concerns about affordability, potentially increasing risk ↑.
      - `/person_home_ownership/`: Whether the borrower owns their own home </br>
-    Homeowners may have more assets and stability, potentially decreasing risk ↓. Renters may have less financial security, potentially increasing risk ↑.
+     Homeowners may have more assets and stability, potentially decreasing risk ↓. Renters may have less financial security, potentially increasing risk ↑.
      - `/person_emp_length/`: Employment length in years </br>
-    Longer employment history may indicate job security and income stability, potentially decreasing risk ↓. Frequent job changes or short employment periods may raise concerns, potentially increasing risk ↑.
+     Longer employment history may indicate job security and income stability, potentially decreasing risk ↓. Frequent job changes or short employment periods may raise concerns, potentially increasing risk ↑.
        
   2. **Loan Details**:
-     - `/loan_intent/`: Purpose of the loan. </br>
+     - `/loan_intent/`: Purpose of the loan </br>
        Types of loan_intent: 
        - Debt consolidation:	May indicate accumulated debt and financial strain ↑.
        - Education:	Invests in future earning potential, potentially lowering risk ↓.
@@ -36,19 +36,29 @@
        - Medical:	Unpredictable expenses and burden, potentially increasing risk ↑. 
        - Personal: Varies depending on purpose. Major purchases might be less risky than discretionary spending ↑.
        - Venture:	High risk due to business uncertainty ↑. 
-     - `/loan_grade/`: Creditworthiness rating assigned by the lender - 
-     - `/loan_amnt/`:
-     - `/loan_int_rate/`:
-     - `/loan_status/`:
-     - `/loan_percent_income/`:
-     - `/cb_person_default_on_file/`:
-     - `/cb_preson_cred_hist_length/`:
-     - `//`:
-     - `//`:
-     - `//`:
-     - `//`:
-     - 
-     -
+     - `/loan_grade/`: Creditworthiness rating assigned by the lender. </br>
+       - Grade A: High creditworthiness, low risk.
+       - Grade B: Relatively low risk, slightly lower creditworthiness than A.
+       - Grade C: Moderate creditworthiness, potential concerns.
+       - Grade D: Higher risk compared to previous grades.
+       - Grade E: Lower creditworthiness, increased risk.
+       - Grade F: Significant credit risk.
+       - Grade G: Lowest creditworthiness, highest risk.
+     - `/loan_amnt/`: Loan amount </br>
+     Higher loan amounts represent a greater financial burden and may be harder to repay, potentially increasing risk ↑. Smaller loans may pose less risk ↓.
+     - `/loan_int_rate/`: Interest rate charged on the loan </br>
+     Higher interest rates often reflect higher perceived risk by the lender, potentially increasing risk ↑. Lower rates may suggest lower risk ↓.
+     - `/loan_status/`: Whether the loan has defaulted (not paid back) </br>
+     Defaulted loans clearly indicate risk, while non-defaulted loans are considered safer.
+     - `/loan_percent_income/`: Loan amount as a percentage of income </br>
+     Higher ratios indicate a larger portion of income dedicated to loan repayment, potentially increasing risk ↑. Lower ratios suggest better financial management and a smaller burden, potentially decreasing risk ↓.
+
+   3. **Credit History Information**:
+     - `/cb_person_default_on_file/`: Whether the borrower has a history of defaults <br>
+     A history of defaults significantly increases risk ↑, while a clean record suggests a lower risk profile ↓.
+     - `/cb_preson_cred_hist_length/`: Length of the borrower's credit history <br>
+     Longer credit history provides more data for risk assessment. Borrowers with good credit history may benefit from a longer history ↓, while those with poor credit history may see less benefit ↑.
+   
 
 
 features vs target variable
@@ -57,10 +67,6 @@ features vs target variable
 
  -------------------------------- TO UPDATE ---------------------------------------
 
-
- 
-- Data summary: Number of records, features, and target variable.
-- Feature overview: Brief explanation of key features.
 
 toolkit
 
