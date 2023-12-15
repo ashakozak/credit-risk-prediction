@@ -1,7 +1,7 @@
 # Credit Risk Prediction using ML
 
 
-**Project Overview:**
+## Project Overview:
 
 Project Goal: To build a model that predicts credit risk using the Laotse credit risk dataset on Kaggle, assisting lenders in making informed loan decisions and reducing financial losses.
 
