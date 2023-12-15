@@ -48,8 +48,8 @@
      Higher loan amounts represent a greater financial burden and may be harder to repay, potentially increasing risk ↑. Smaller loans may pose less risk ↓.
      - `/loan_int_rate/`: Interest rate charged on the loan </br>
      Higher interest rates often reflect higher perceived risk by the lender, potentially increasing risk ↑. Lower rates may suggest lower risk ↓.
-     - `/loan_status/`: Whether the loan has defaulted (not paid back) </br>
-     Defaulted loans clearly indicate risk, while non-defaulted loans are considered safer.
+     - `/loan_status/`: Whether the loan has defaulted (not paid back), indicating the **target variable** of this analysis </br>
+     Defaulted loans (1) clearly indicate risk ↑, while non-defaulted loans (0) are considered safer ↓.
      - `/loan_percent_income/`: Loan amount as a percentage of income </br>
      Higher ratios indicate a larger portion of income dedicated to loan repayment, potentially increasing risk ↑. Lower ratios suggest better financial management and a smaller burden, potentially decreasing risk ↓.
 
