@@ -14,8 +14,12 @@
 
 ## Dataset:
 
-- **Dataset source**: [Credit Risk Dataset](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset) on Kaggle
-
+- **Dataset source**: [Credit Risk Dataset by Lao Tse](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset) on Kaggle (CSV file with 32,581 individual loan transactions).
+- **Data fields**:
+  1. Borrower Demographics:
+     - /person_age/:
+     - `/person_age/`:
+ 
 
  -------------------------------- TO UPDATE ---------------------------------------
 
