@@ -15,10 +15,41 @@
 ## Dataset:
 
 - **Dataset source**: [Credit Risk Dataset by Lao Tse](https://www.kaggle.com/datasets/clmentbisaillon/fake-and-real-news-dataset) on Kaggle (CSV file with 32,581 individual loan transactions).
+  
 - **Data fields**:
-  1. Borrower Demographics:
-     - /person_age/:
-     - `/person_age/`:
+  1. **Borrower Demographics**:
+     - `/person_age/`: Age of the borrower
+     Younger borrowers may have less established credit history and financial stability, potentially increasing risk. Older borrowers may have more stable incomes and assets, potentially decreasing risk.
+     - `/person_income/`: Annual Income of the borrower
+    Higher income indicates greater financial capacity to repay loans, potentially decreasing risk. Lower income may raise concerns about affordability, potentially increasing risk.
+     - `/person_home_ownership/`: Whether the borrower owns their own home - Homeowners may have more assets and stability, potentially decreasing risk. Renters may have less financial security, potentially increasing risk.
+     - `/person_emp_length/`: Employment length in years - Longer employment history may indicate job security and income stability, potentially decreasing risk. Frequent job changes or short employment periods may raise concerns, potentially increasing risk.
+  2. **Loan Details**:
+     - `/loan_intent/`: Purpose of the loan.
+       Types of loan_intent:
+       - Debt consolidation:	↑ May indicate accumulated debt and financial strain.
+       - Education:	↓ Invests in future earning potential, potentially lowering risk.
+       - Home Improvement:	↓ Suggests stability and responsibility..
+       - Medical:	↑ Unpredictable expenses and burden, potentially increasing risk. 
+       - Personal: Varies depending on purpose. Major purchases might be less risky than discretionary spending.
+       - Venture:	↑ High risk due to business uncertainty. 
+     - `/loan_grade/`: Creditworthiness rating assigned by the lender - 
+     - `/loan_amnt/`:
+     - `/loan_int_rate/`:
+     - `/loan_status/`:
+     - `/loan_percent_income/`:
+     - `/cb_person_default_on_file/`:
+     - `/cb_preson_cred_hist_length/`:
+     - `//`:
+     - `//`:
+     - `//`:
+     - `//`:
+     - 
+     -
+
+
+features vs target variable
+    
  
 
  -------------------------------- TO UPDATE ---------------------------------------
@@ -27,6 +58,17 @@
  
 - Data summary: Number of records, features, and target variable.
 - Feature overview: Brief explanation of key features.
+
+toolkit
+
+applications/code editors
+
+file structure
+
+structure - backend
+eda
+machine learning
+results
 
 **Methodology:**
 
