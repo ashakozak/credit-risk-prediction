@@ -7,9 +7,9 @@ Project Goal: To build a model that predicts credit risk using the Laotse credit
 
 Motivation:
 
-Financial stability: Accurate credit risk prediction helps lenders avoid bad loans, ensuring financial stability and responsible lending practices.
-Improved borrower experience: By identifying borrowers with lower risk, lenders can offer more favorable loan terms and improve the overall borrower experience.
-Data-driven insights: This project leverages the power of data to uncover patterns and relationships in creditworthiness, leading to better decision-making and risk management.
+- **Financial stability**: Accurate credit risk prediction helps lenders avoid bad loans, ensuring financial stability and responsible lending practices.
+- **Improved borrower experience**: By identifying borrowers with lower risk, lenders can offer more favorable loan terms and improve the overall borrower experience.
+- **Data-driven insights**: This project leverages the power of data to uncover patterns and relationships in creditworthiness, leading to better decision-making and risk management.
 
 **Data Description:**
 
