@@ -18,15 +18,18 @@
   
 - **Data fields**:
   1. **Borrower Demographics**:
-     - `/person_age/`: Age of the borrower
+     - `/person_age/`: Age of the borrower </br>
      Younger borrowers may have less established credit history and financial stability, potentially increasing risk. Older borrowers may have more stable incomes and assets, potentially decreasing risk.
-     - `/person_income/`: Annual Income of the borrower
+     - `/person_income/`: Annual Income of the borrower </br>
     Higher income indicates greater financial capacity to repay loans, potentially decreasing risk. Lower income may raise concerns about affordability, potentially increasing risk.
-     - `/person_home_ownership/`: Whether the borrower owns their own home - Homeowners may have more assets and stability, potentially decreasing risk. Renters may have less financial security, potentially increasing risk.
-     - `/person_emp_length/`: Employment length in years - Longer employment history may indicate job security and income stability, potentially decreasing risk. Frequent job changes or short employment periods may raise concerns, potentially increasing risk.
+     - `/person_home_ownership/`: Whether the borrower owns their own home </br>
+    Homeowners may have more assets and stability, potentially decreasing risk. Renters may have less financial security, potentially increasing risk.
+     - `/person_emp_length/`: Employment length in years </br>
+    Longer employment history may indicate job security and income stability, potentially decreasing risk. Frequent job changes or short employment periods may raise concerns, potentially increasing risk.
+       
   2. **Loan Details**:
-     - `/loan_intent/`: Purpose of the loan.
-       Types of loan_intent:
+     - `/loan_intent/`: Purpose of the loan. </br>
+       Types of loan_intent: 
        - Debt consolidation:	↑ May indicate accumulated debt and financial strain.
        - Education:	↓ Invests in future earning potential, potentially lowering risk.
        - Home Improvement:	↓ Suggests stability and responsibility..
